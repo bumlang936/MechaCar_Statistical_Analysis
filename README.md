@@ -56,6 +56,29 @@ The results also show that the PSI variance for Lots 1 and 2 didn't exceed the 1
 
 ## T-Tests on Suspension Coils
 
+The following images show the results of running a t-test on all the lots, and then t-tests on each individual lots.
+
+T-Test across all lots:
+![all_lots](https://user-images.githubusercontent.com/75760493/115387514-6f5ae800-a1a0-11eb-9c72-53c1738b8f6f.PNG)
+
+T-Test across Lot 1:
+![lot1](https://user-images.githubusercontent.com/75760493/115387571-826db800-a1a0-11eb-9231-3edc3277559d.PNG)
+
+T-Test across Lot 2:
+![lot2](https://user-images.githubusercontent.com/75760493/115387630-91546a80-a1a0-11eb-8dce-05ff4b05f5ae.PNG)
+
+T-Test across Lot 3:
+![lot3](https://user-images.githubusercontent.com/75760493/115387694-9f09f000-a1a0-11eb-85de-1d7017190f04.PNG)
+
+The t-test performed across all lots resulted in a p-value of .06028.
+
+The t-test performed across Lot 1 resulted in a p-value of 1.
+
+The t-test performed across Lot 2resulted in a p-value of .6072.
+
+The t-test performed across Lot 3 resulted in a p-value of .04168.
+
+Among the three manufacturing lots, the suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population PSI results.
 
 
 
