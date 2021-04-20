@@ -40,7 +40,6 @@ Because the p-value of the linear model was 5.35e-11, well below the significanc
 The linear model created can be used as a good predictor of mpg since it's multiple r-squared value was .7149 and had a p-value of 5.35e-11, which is well below the signficance level of .05. Since it has a multiple r-squared value of .7149, we can expect the linear model to accuaretly predict the mpg of 71.49% of all models.
 
 
-
 ## Summary Statistics on Suspension Coils
 
 1.) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -51,7 +50,6 @@ The following image shows the results after using R-stuido to gather summary sta
 The results show that the PSI variance for all the lots was 62.3, which is below the max of 100 PSI. 
 
 The results also show that the PSI variance for Lots 1 and 2 didn't exceed the 100 PSI variance with variances of .98 and 7.47 respectively. However, Lot 3 had a PSI variance of 170 which exceed the max of 100 PSI. 
-
 
 
 ## T-Tests on Suspension Coils
@@ -78,8 +76,7 @@ The t-test performed across Lot 2resulted in a p-value of .6072.
 
 The t-test performed across Lot 3 resulted in a p-value of .04168.
 
-Among the three manufacturing lots, the suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population PSI results.
-
+The suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population since it is the only one with a p-value below .05.
 
 
 ## Study Design: MechaCar vs. Competition
