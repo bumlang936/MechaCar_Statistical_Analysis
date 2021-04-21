@@ -22,10 +22,10 @@ R-studio was then used to determine summary statistics and p-values for the all 
 As shown above, the following p-values were found for the following parameters:
 intercept = 5.08e-08
 vehicle_length = 2.60e-12
-vehicle_weight = .0776
-spoiler_angle = .3069
+vehicle_weight = 0.0776
+spoiler_angle = 0.3069
 ground_clearance = 5.21e-08
-AWD = .1852
+AWD = 0.1852
 
 1.) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -33,11 +33,11 @@ From the p-values shown above, the varaibles that provided a non-random amount o
 
 2.) Is the slope of the linear model considered to be zero? Why or why not?
 
-Because the p-value of the linear model was 5.35e-11, well below the significance level of .05, we can reject the null hypothesis meaning the slope of the linear model will be not zero.
+Because the p-value of the linear model was 5.35e-11, well below the significance level of 0.05, we can reject the null hypothesis meaning the slope of the linear model will be not zero.
 
 3.) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? 
 
-The linear model created can be used as a good predictor of mpg since it's multiple r-squared value was .7149 and had a p-value of 5.35e-11, which is well below the signficance level of .05. Since it has a multiple r-squared value of .7149, we can expect the linear model to accuaretly predict the mpg of 71.49% of all models.
+The linear model created can be used as a good predictor of mpg since it's multiple r-squared value was .7149 and had a p-value of 5.35e-11, which is well below the signficance level of .05. Since it has a multiple r-squared value of 0.7149, we can expect the linear model to accuaretly predict the mpg of 71.49% of all models.
 
 
 ## Summary Statistics on Suspension Coils
@@ -54,7 +54,7 @@ The results also show that the PSI variance for Lots 1 and 2 didn't exceed the 1
 
 ## T-Tests on Suspension Coils
 
-The following images show the results of running a t-test on all the lots, and then t-tests on each individual lots.
+The following images show the results of running a t-test on all the lots, and then t-tests on each individual lots to see if they are statistically different from the mean population of 1,500 PSI.
 
 T-Test across all lots:
 ![all_lots](https://user-images.githubusercontent.com/75760493/115387514-6f5ae800-a1a0-11eb-9c72-53c1738b8f6f.PNG)
@@ -68,15 +68,15 @@ T-Test across Lot 2:
 T-Test across Lot 3:
 ![lot3](https://user-images.githubusercontent.com/75760493/115387694-9f09f000-a1a0-11eb-85de-1d7017190f04.PNG)
 
-The t-test performed across all lots resulted in a p-value of .06028.
+The t-test performed across all lots resulted in a p-value of 0.06028.
 
 The t-test performed across Lot 1 resulted in a p-value of 1.
 
-The t-test performed across Lot 2resulted in a p-value of .6072.
+The t-test performed across Lot 2resulted in a p-value of 0.6072.
 
-The t-test performed across Lot 3 resulted in a p-value of .04168.
+The t-test performed across Lot 3 resulted in a p-value of 0.04168.
 
-The suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population since it is the only one with a p-value below .05.
+The suspension coil's PSI of lot 3 is the only one that is statistically different from the mean population of 1,500 PSI since it is the only one with a p-value below 0.05 with a p-value of 0.04168. All others fail to show that they are statistically different from the mean population of 1,500 PSI.
 
 
 ## Study Design: MechaCar vs. Competition
